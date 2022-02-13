@@ -1,0 +1,40 @@
+.friendList {
+  width: 350px;
+  list-style: none;
+}
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: azure;
+}
+.avatar {
+  display: block;
+  margin-right: 20px;
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 50%;
+}
+
+.statusOffline,
+.statusOnline {
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.statusOffline {
+  background-color: red;
+}
+
+.statusOnline {
+  background-color: #44b048;
+}
+.name {
+  font-size: 20px;
+}
